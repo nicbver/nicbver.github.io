@@ -1,0 +1,43 @@
+html{
+	/* This image will be displayed fullscreen */
+	background:url('../images/palmtrees.gif') no-repeat center center;
+
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+
+	/* The Magic */
+	background-size:cover;
+}
+
+body{
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+}
+
+ul.nav a:hover { color: #b5bce2 !important; }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+	font-weight: bold;
+}
+
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+.container p {
+  display: inline-block;
+  float: none;
+  vertical-align: bottom;
+}
+
+.footer p {
+	float: right;
+}
